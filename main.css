@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: auto 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(70, 136, 211);
+}
+
+h1, li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 8px 0;
+}
+
+h2 {
+    border-bottom: 2px solid rgb(70, 136, 211);
+    padding: 8px ;
+    font-style: italic;
+    color: rgb(70, 136, 211);
+}
+
+.menu li {
+    float: left;
+    list-style: none;
+    padding: 8px;
+}
+
+.clear {
+    clear: both;
+}
+
+#Sobre-a-loja {
+    display: flex;
+}
+
+#Sobre-a-loja img {
+    padding: 8px;
+}
+
+#Sobre-a-loja p {
+    padding-top: 8px;
+}
+
+.conteudo {
+    margin: 0;
+    padding: 8px;
+}
+
+#produtos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#produtos img {
+    width: 200px;
+}
+
+#produtos li {
+    padding: 16px;
+    list-style: none;
+}
+
+#produtos ul {
+    padding: 10px;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    background-color:rgb(70, 136, 211);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 819px) and (max-width: 1179px) {
+    
+
+    #Sobre-a-loja {
+        display: block;
+    }
+
+    #Sobre-a-loja img {
+        max-width: 100%;
+    }
+    
+    #Sobre-a-loja p {
+        padding-top: 8px;
+    }
+    
+}
+
+@media screen and (min-width: 374px) and (max-width: 666px) {
+    html {
+        width: 560px;
+    }
+    
+    .container {
+        margin: 5px;
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    #Sobre-a-loja img {
+        width: 100%;
+    }
+
+    #Sobre-a-loja {
+        display: block;
+    }
+
+    .conteudo {
+        width: 100%;
+    }
+
+    #produtos {
+        display: block;
+        flex-wrap: nowrap;
+    }
+
+    #produtos h2 {
+        padding-left: 8px;
+    }
+
+    #produtos img {
+        width: 500px;
+        padding: 16px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 18px;
+        padding: 10px;
+    }
+}   
+
+
+
+
+
+
+
+
